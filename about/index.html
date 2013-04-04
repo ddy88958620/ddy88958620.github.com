@@ -9,7 +9,7 @@
   <meta name="author" content="丁代阳">
 
   
-  <meta name="description" content="关于... 简介 这是SPRabbit(超科学兔耳中队)的博客。主要用于社团动向的发布，以及社团作品的展示。除此之外还可能用作中队长的个人博客，和社团技术博客。 SPRABBIT SPRABBIT-超科学兔耳中队，是我们社团的名字，可以称作SPRabbit、SPR、超科学兔耳中队、兔耳中队……嘛 &hellip;">
+  <meta name="description" content="关于... 简介 我叫丁代阳.我是一名软件工程师： 2012.05 - now 在 汇通金财 的互联网事业部， 主要负责团队的技术研发体系建设，网站及核心业务系统的架构设计与研发。 20011.03 - 2012.05 在 72XUAN 的技术部工作，主要负责现有系统的改造升级及。 2009. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -70,58 +70,37 @@
     
   </header>
   
-  <p><img src="/images/logo_long_s.png" alt="SPRABBIT"/></p>
-
-<h2>简介</h2>
+  <h2>简介</h2>
 
 
-<p>这是<a href="http://www.sprabbit.com">SPRabbit(超科学兔耳中队)</a>的博客。主要用于社团动向的发布，以及社团作品的展示。除此之外还可能用作中队长的个人博客，和社团技术博客。</p>
-
-<h2>SPRABBIT</h2>
-
-
-<p>SPRABBIT-超科学兔耳中队，是我们社团的名字，可以称作SPRabbit、SPR、超科学兔耳中队、兔耳中队……嘛，关于这个名字的由来，我会告诉你们是随便取的么！</p>
-
-<p>目前为止，SPRABBIT并没有吸引到多少人的注意力，社团作品也屈指可数，但是未来是光明的。之前的经验也奠定了我们走技术道路，希望有朝一日SPRABBIT能成为独当一面的大社团！</p>
-
-<h2>中文？英文？</h2>
-
-
-<p>虽然没有一个富有中文意味的社团名称，但是社团本身还是一个以东方文字为主导的社团，也希望能创造出具有东方特色的社团作品。既然是中文同人社团，博客也应该是中文的。原本Octopress是一个纯英文的框架，对中文乃至UNICODE的支持并不是十分到位，因此我对原有框架做了细微的修改，力求看到的文字，尽是中文。此框架也提供开源代码，可以在下文找到。另外，我原本打算使用繁体中文作为显示语言，其中最主要的原因就是可以使更多中文地区人士可以看得懂(相信能看懂简体字的童鞋都能看懂繁体吧)。但是最近发现，地区不同，语言还是有差别的，比如博客，在台湾叫做部落格，在香港直接叫blog，我没办法很好的兼顾这些，所以就决定用回简体中文。如果希望看到繁体字的朋友可以点击博客下方的Google翻译，里面有繁体中文选项。</p>
-
-<h2>Octopress</h2>
-
-
-<p>以前使用的是<a href="http://sprabbit.blog.163.com/">163的免费博客</a>，但是觉得有太多限制，无法展现一个社团的创造力。有了自己的域名之后，有在主机上假设过<a href="http://www.sprabbit.com/blog">Wordpress的博客</a>，但是免费主机的接口有所限制，Wordpress中的许多插件功能无法实现，于是只好放弃。后来一个崭新的词汇引起了我的注意——静态博客。其中一个比较流行的模板就是我们现在在使用的<a href="http://octopress.org/">Octopress</a>。</p>
-
-<p>Octopress所谓静态博客，就是只包含静态页面的博客。不像Wordpress这样的动态博客，Octopress没有php页面，所有页面都是由纯粹的HTML页面构成的。博客这种类似于个人门户网站的不需要太多交互的Web应用，确实比较适合于静态页面。至于其中的技术详情，在此就不详细多说，感兴趣的朋友可以直接到<a href="http://octopress.org/">Octopress</a>的主页查看架设教程，最好要有编程基础，否则可能会觉得无从下手，因为Octopress是号称是为Hacker设计的博客架构。其中涉及了Github版本管理，Ruby编程，还有最基本的html语言。就是说需要用记事本来写日志。</p>
-
-<p>比如说上面“简介”那一段就要写成：</p>
-
-<figure class='code'><figcaption><span>简介 </span><a href='http://blog.sprabbit.com/about'>页面</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;h2&gt;</span>简介<span class="nt">&lt;/h2&gt;</span>
-</span><span class='line'>这是<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.sprabbit.com&quot;</span><span class="nt">&gt;</span>SPRabbit(超科学兔耳中队)<span class="nt">&lt;/a&gt;</span>的博客。主要用于社团动向的发布，以及社团作品的展示。除此之外还可能用作中队长的个人博客，和社团技术博客。
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p></p>
-
-<p>但是Octopress对中文支持不太好，包括不支持中文分类，所以需要对原框架做很多细微的修改。如果需要使用中文化的Octopress，可以在Github直接<a href="https://github.com/denjones/denjones.github.com/tree/source">clone本博客的框架</a>，然后将相关博文页面删除。</p>
-
-<h2>联系方式</h2>
-
-
-<p>大家可以通过以下方式联系我们：</p>
+<p>我叫丁代阳.我是一名软件工程师：</p>
 
 <ul>
-<li>社团信箱： <a href="mailto:sprabbit@163.com">sprabbit@163.com</a></li>
-<li>社团QQ群： 197397909</li>
-<li>社团首页： <a href="http://www.sprabbit.com">http://www.sprabbit.com</a></li>
-<li>淘宝商店： <a href="http://sprabbit.taobao.com">http://sprabbit.taobao.com</a></li>
-<li>社团微博： <a href="http://weibo.com/kenjones">新浪微博</a></li>
+<li> 2012.05 - now 在 汇通金财 的互联网事业部， 主要负责团队的技术研发体系建设，网站及核心业务系统的架构设计与研发。</li>
+<li> 20011.03 - 2012.05 在 72XUAN 的技术部工作，主要负责现有系统的改造升级及。</li>
+<li> 2009.01 - 2010.02 在 家世通达 的技术部工作，主要负责公司移动端到端产品设计及开发。</li>
+<li> 2006.10 - 2009.01 在 ACCESS(中国) 的研发部工作，主要负责移动音乐产品服务器端的研发。</li>
 </ul>
 
+
+<p>一直怀着创业心态在打工， 喜欢各种折腾，感觉自己对各方面都感兴趣，目前主要关注后端， 主要关注以下方面:</p>
+
+<ul>
+<li> 程序设计语言: Java/Python/Scala/Go</li>
+<li> Web编程框架： Poading-rose、Spring、dropwizard、jersey</li>
+<li> 分布式中间件/消息系统： Dubbo、Finagle、RabbitMQ、MetaQ</li>
+<li> 高性能/高并发编程框架： Netty/Mina/disruptor</li>
+<li> 数据/文件存储： MySQL、NoSQL、MogileFS、FastDFS</li>
+<li> 操作系统: Unix/Linux</li>
+<li> DevOps：关注各种高可用高性能的开发/测试/运维环境</li>
+</ul>
+
+
+<p><strong>邮箱: daiyang.ding@gmail.com</strong></p>
+
+<p><strong>新浪微博: <a href="http://weibo.com/unifans">http://weibo.com/unifans</a></strong></p>
+
+<p><strong>github: <a href="https://github.com/ddy88958620">https://github.com/ddy88958620</a></strong></p>
 
   
     <footer>
